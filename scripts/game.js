@@ -270,13 +270,13 @@ function moveObstacles(){
 					scoringTimer = 0;
 					score ++;
 					document.getElementById("score").innerHTML = score;	
-					if(score >= 10){
+					if(score >= 10 && score < 20){
 						document.getElementById("message").innerHTML = "Not Bad!";	
 					}
-					else if(score >=20){
+					else if(score >=20 && score < 50){
 						document.getElementById("message").innerHTML = "Very good!";	
 					}
-					else if(score >=50){
+					else if(score >=50 && score < 100){
 						document.getElementById("message").innerHTML = "Excellent!";	
 					}
 					else if(score >=100){
